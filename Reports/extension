@@ -1,0 +1,11 @@
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\forgotpassword_report.html test_forgotpass.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\adminjob_report.html test_adminjob.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\adminorganization_report.html test_adminorganization.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\adminqualification_report.html test_adminqualification.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\adminnationalities_report.html test_nationalities.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\admin_corporatebranding_report.html test_branding.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\admin_configuration_report.html test_adminconfiguration.py
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\usermanagement_report.html test_user.py
+
+
+pytest -v -s --capture=sys --html=C:\Users\USER\Desktop\workspace\project2\Reports\all_modules_validation_report.html test_modules.py
